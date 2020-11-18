@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { faEnvelope, faLock, IconDefinition } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faLock, faPhone, faUser, IconDefinition } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
 	selector: 'text-input',
@@ -13,18 +13,18 @@ export class TextInputComponent implements OnInit {
 	ngOnInit() { this.faIcon = this.getIcon(this.inputIcon);}
 		
 	@Input() placeholder: string;
-	@Input() inputIcon: string;
-	
+	@Input() inputIcon: string;	
 
 	 getIcon (iconName) {
-		if (iconName == "faLock")
-		{
-			return faLock;
-		}
-		if (iconName == "faEnvelope")
-		{
-			return faEnvelope;
-		}
-		
+		 switch (iconName){
+			case "faLock":			
+				return faLock;
+			case "faEnvelope":
+				return faEnvelope;			
+			case "faUser":
+				return faUser;
+			case "faPhone":
+				return faPhone;
+		 }		
 	}
 }	

@@ -1,15 +1,7 @@
-.multiplex-text-input {
-  
-        /* width: 50px;
-        background-color: #FFC312;
-        color: black;
-        border:0 !important;
-        color: white;
-        cursor: pointer; */
+.multiplex-text-input {  
         border-radius: 25px;
         width: 400px;
-        padding-left: 40px;
-        
+        padding-left: 40px;        
 }
 
 .multiplex-icon {

@@ -1,0 +1,23 @@
+.presentation-page-container {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        height: 100vh;
+        grid-auto-rows: auto;
+        padding-top: 20px;            
+    }
+    
+.center-element-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#right-side-panel {
+    background-color: burlywood;
+    box-shadow: -5px 0px 5px 1px #533f3f;
+}
+
+#left-side-panel{
+    background-color: darkgray;
+}

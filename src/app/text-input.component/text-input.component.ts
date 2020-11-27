@@ -8,23 +8,22 @@ import { faEnvelope, faLock, faPhone, faUser, IconDefinition } from '@fortawesom
 })
 
 export class TextInputComponent implements OnInit {
-	 faIcon :IconDefinition;
+	faIcon: IconDefinition;
+	@Input() placeholder: string;
+	@Input() inputIcon: string;
 
 	ngOnInit() { this.faIcon = this.getIcon(this.inputIcon);}
-		
-	@Input() placeholder: string;
-	@Input() inputIcon: string;	
 
-	 getIcon (iconName) {
+	 getIcon (iconName: string) {
 		 switch (iconName){
-			case "faLock":			
+			case "faLock":
 				return faLock;
 			case "faEnvelope":
-				return faEnvelope;			
+				return faEnvelope;
 			case "faUser":
 				return faUser;
 			case "faPhone":
 				return faPhone;
-		 }		
+		 }
 	}
-}	
+}

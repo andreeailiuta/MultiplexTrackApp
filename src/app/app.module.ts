@@ -8,13 +8,18 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
 import { LoginContainerComponent} from './login-container.component/login-container.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CreateAccountContainerComponent } from './create-account-container/create-account-container.component';
+import { PresentationPageComponent } from './presentation-page/presentation-page.component';
+
+// import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
     AppComponent,
     TextInputComponent,
     LoginContainerComponent,
-    CreateAccountContainerComponent
+    CreateAccountContainerComponent,
+    PresentationPageComponent
+    
   ],
   imports: [
     BrowserModule,

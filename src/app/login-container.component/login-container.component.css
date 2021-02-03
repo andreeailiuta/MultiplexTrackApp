@@ -1,0 +1,22 @@
+#login-title {
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 200px;
+    color: #50356C;
+    font-family: Calibri;
+}
+#forgot-password {
+    color: rgb(167, 164, 164);
+    font-size: 20px;
+    font-family: Calibri;
+    text-decoration: underline;
+}
+#sign-in-button {
+    font-size: 20px;
+    font-family: Calibri;    
+    background-color: #50356C;
+    padding-right: 90px;
+    padding-left: 90px;
+    border-radius: 25px;
+    margin-top: 30px; 
+}

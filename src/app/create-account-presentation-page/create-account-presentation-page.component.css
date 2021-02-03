@@ -1,0 +1,39 @@
+.presentation-page-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: 100vh;
+    grid-auto-rows: auto;
+    padding-top: 20px;            
+}
+
+.center-element-div{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+text-align: center;
+flex-direction: column;   
+}
+
+#right-side-panel {
+background-color: #cbc0d3;
+box-shadow: -5px 0px 5px 1px #533f3f;     
+color: #4a4e69;
+font-family: Calibri;
+}
+
+h2 {
+font-size: 20px;
+}
+
+#login-right-img {
+width: 65%;
+margin-top: 10px;   
+border-radius: 5px; 
+}
+
+#left-side-panel{
+background-color:#f2e9e4;    
+}
+
+

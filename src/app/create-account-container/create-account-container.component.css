@@ -1,3 +1,42 @@
-.create-account-container {
 
+#create-account-title {
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: 200px;
+    /* margin-bottom: 20px; */
+    color: #50356C;
+    font-family: Calibri;
+    
 }
+.presentation-page-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: 100vh;
+    grid-auto-rows: auto;
+    /* padding-top: 20px;             */
+}
+
+.center-element-div{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 50vh;
+text-align: center;
+flex-direction: column;  
+border-top: 10px; 
+}
+
+#create-account {
+    font-size: 20px;
+    font-family: Calibri;    
+    background-color: #50356C;
+    padding-right: 90px;
+    padding-left: 90px;
+    border-radius: 25px;
+    margin-top: 30px; 
+}
+
+/* h1 {
+    font-size: 40px;
+    margin-top: 200px;
+    } */

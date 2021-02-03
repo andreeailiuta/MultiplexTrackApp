@@ -9,8 +9,10 @@ import { LoginContainerComponent} from './login-container.component/login-contai
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CreateAccountContainerComponent } from './create-account-container/create-account-container.component';
 import { PresentationPageComponent } from './presentation-page/presentation-page.component';
-
-// import { from } from 'rxjs';
+import { CreateAccountPresentationPageComponent } from './create-account-presentation-page/create-account-presentation-page.component';
+import { Routes } from '@angular/router';
+ 
+const routes :Routes  = [];
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { PresentationPageComponent } from './presentation-page/presentation-page
     TextInputComponent,
     LoginContainerComponent,
     CreateAccountContainerComponent,
-    PresentationPageComponent
+    PresentationPageComponent,
+    CreateAccountPresentationPageComponent
     
   ],
   imports: [

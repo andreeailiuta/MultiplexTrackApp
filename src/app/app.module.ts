@@ -11,6 +11,9 @@ import { CreateAccountContainerComponent } from './create-account-container/crea
 import { PresentationPageComponent } from './presentation-page/presentation-page.component';
 import { CreateAccountPresentationPageComponent } from './create-account-presentation-page/create-account-presentation-page.component';
 import { Routes } from '@angular/router';
+import { TopNavigationBarComponent } from './top-navigation-bar/top-navigation-bar.component';
+import { HomePageContainerComponent } from './home-page-container/home-page-container.component';
+import { HomePageMoviesSliderComponent } from './home-page-movies-slider/home-page-movies-slider.component';
  
 const routes :Routes  = [];
 
@@ -21,8 +24,10 @@ const routes :Routes  = [];
     LoginContainerComponent,
     CreateAccountContainerComponent,
     PresentationPageComponent,
-    CreateAccountPresentationPageComponent
-    
+    CreateAccountPresentationPageComponent,
+    TopNavigationBarComponent,
+    HomePageContainerComponent,
+    HomePageMoviesSliderComponent    
   ],
   imports: [
     BrowserModule,

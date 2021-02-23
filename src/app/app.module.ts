@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { TextInputComponent } from './text-input.component/text-input.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
 import { LoginContainerComponent} from './login-container.component/login-container.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+//import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CreateAccountContainerComponent } from './create-account-container/create-account-container.component';
 import { PresentationPageComponent } from './presentation-page/presentation-page.component';
 import { CreateAccountPresentationPageComponent } from './create-account-presentation-page/create-account-presentation-page.component';
@@ -32,8 +32,8 @@ const routes :Routes  = [];
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    //NgbModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
